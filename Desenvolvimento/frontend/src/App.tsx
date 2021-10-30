@@ -1,0 +1,15 @@
+import GlobalStyle from './styles/global';
+//import { SignIn } from './pages/SignIn';
+
+import { Routes } from './routes';
+
+function App() {
+  return (
+    <>
+      <Routes />
+      <GlobalStyle />
+    </>
+  );
+}
+ 
+export default App;
